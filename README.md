@@ -7,7 +7,7 @@ lab you will have:
 
 1. Practiced Building Container Components.
 2. Gained concrete experience combining presentational and container components to
-separate the data and presentation layers.
+   separate the data and presentation layers.
 
 ## Oh, To Be a Critic!
 
@@ -37,30 +37,30 @@ follow as you work:
 
 #### `<MovieReviews>`
 
-* Your `MovieReviews` component should be stateless and functional.
+- Your `MovieReviews` component should be **stateless and functional**.
 
-* You are free to lay out each review as you like using the data that the API
-returns, but make sure that the component outputs a top-level element with the
-class `review-list` and that each review is wrapped by an element with class
-`review`.
+- You are free to lay out each review as you like using the data that the API
+  returns, but make sure that the component **outputs a top-level element with the
+  class `review-list`** and that **each review is wrapped by an element with class
+  `review`**.
 
 #### `<LatestMovieReviewsContainer>` and `<SearchableMovieReviewsContainer>`
 
-* Both container components should be class components that maintain state.
+- Both container components should be class components that maintain state.
 
-* The `LatestMovieReviewsContainer` should have a top-level wrapping element with
-class `latest-movie-reviews`.
+- The `LatestMovieReviewsContainer` should have a top-level wrapping element with
+  class `latest-movie-reviews`.
 
-* The `SearchableMovieReviewsContainer` should have a top-level wrapping element
-with class `searchable-movie-reviews`.
+- The `SearchableMovieReviewsContainer` should have a top-level wrapping element
+  with class `searchable-movie-reviews`.
 
 ## The _New York Times_ API
 
 In order to fetch data from the _New York Times_ API, you'll need to make calls
 to the following URLs:
 
-* For the latest movie reviews: `https://api.nytimes.com/svc/movies/v2/reviews/all.json`
-* To query the search API: `https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=<search-term>`
+- For the latest movie reviews: `https://api.nytimes.com/svc/movies/v2/reviews/all.json`
+- To query the search API: `https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=<search-term>`
 
 In addition to making calls to these URLs, you will need to request an API key
 from [here](https://developer.nytimes.com/signup). Once you have the key, you
